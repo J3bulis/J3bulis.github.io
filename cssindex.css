@@ -1,0 +1,268 @@
+.underline {
+  text-decoration-line: underline;
+  text-decoration-color: black;
+}
+
+.header {
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  margin: -10;
+  padding: 0;
+  overflow: hidden;
+  -background-color: Bisque;
+  -display: block;
+  -text-decoration: none;
+  -color: rgb(61, 139, 123);
+  -text-align: center;
+  background-color: antiquewhite;
+}
+
+.topnav ul {
+  float: left;
+  list-style-type: none;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(61, 139, 123);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: rgb(153, 119, 75);
+}
+
+.spacing a:hover {
+  background-color: antiquewhite;
+}
+
+body {
+  margin: 0;
+  background: rgb(250, 226, 194);
+}
+
+/*
+.spacing {
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
+  color: rgb(54, 54, 54);
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: none;
+}
+*/
+
+* {
+  box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.customLabel {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.customTextInput {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: antiquewhite;
+  padding: 20px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .customLabel,
+  .col-75,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/* Nav responsive */
+
+@media screen and (max-width: 920px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+/* Columnit vierekkäin */
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: rgb(250, 240, 228);
+  padding-left: 20px;
+}
+
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Upotetun kartan juttuja */
+
+/*
+@media screen and (max-width: 650px) {
+  .google-map iframe {
+    display: none;
+  }
+}
+*/
+
+.google-map {
+  padding-bottom: 50%;
+  position: relative;
+}
+
+.google-map iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+/* Columnien Responsiivisuus */
+
+@media screen and (max-width: 920px) {
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Footer css */
+
+footer {
+  float: right;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: antiquewhite;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: black;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-content p {
+  max-width: 1000px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #717728;
+}
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li {
+  margin: 0 10px;
+}
+.socials a {
+  text-decoration: none;
+  color: #fff;
+  border: 1.1px solid white;
+  padding: 5px;
+  border-radius: 50%;
+}
+.socials a i {
+  font-size: 1.1rem;
+  width: 20px;
+  transition: color 0.4s ease;
+}
+.socials a:hover i {
+  color: aqua;
+}
+
+/* Responsive footer */
+
+@media (max-width: 650px) {
+  .footer-menu ul {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+.esittelytxt {
+  border: 1px solid rgba(56, 61, 36, 0.5);
+  margin-top: 2%;
+  margin-bottom: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+}
+
+.esittelytxt p {
+}
+
+.mina {
+  margin-top: 2%;
+  text-align: center;
+}
+.centerText {
+  text-align: center;
+}

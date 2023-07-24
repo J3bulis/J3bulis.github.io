@@ -1,0 +1,261 @@
+.underline {
+  text-decoration-line: underline;
+  text-decoration-color: black;
+}
+
+.aiheittain {
+  text-align: center;
+}
+
+.otsikotaiheittain {
+  text-align: center;
+}
+
+.after:hover {
+  border-style: solid;
+}
+
+.button {
+  background-color: antiquewhite; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.button a {
+  text-decoration: none;
+}
+
+.backButton {
+  float: right;
+}
+
+/*Navigointi osuus alkaa tästä*/
+.topnav {
+  margin: -10;
+  padding: 0;
+  overflow: hidden;
+  -background-color: Bisque;
+  -display: block;
+  -text-decoration: none;
+  -color: rgb(61, 139, 123);
+  -text-align: center;
+  background-color: antiquewhite;
+}
+
+.topnav ul {
+  float: left;
+  list-style-type: none;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(61, 139, 123);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: rgb(153, 119, 75);
+}
+
+.spacing a:hover {
+  background-color: antiquewhite;
+}
+
+body {
+  margin: 0;
+  background: rgb(250, 226, 194);
+}
+
+.header_title {
+  margin-left: 9%;
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.border {
+  display: inline-block;
+  border-style: solid;
+}
+.border:hover {
+  color: darkgray;
+}
+
+#images-wrapper {
+  line-height: 0;
+  -webkit-column-count: 5;
+  -webkit-column-gap: 0px;
+  -moz-column-count: 5;
+  -moz-column-gap: 0px;
+  column-count: 5;
+  column-gap: 0px;
+}
+#images-wrapper img {
+  width: 100% !important;
+  height: auto !important;
+}
+#images-wrapper {
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.valistys {
+  padding: 5px;
+}
+
+/*
+
+@media (max-width: 1200px) {
+  #images-wrapper {
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+  }
+}
+@media (max-width: 800px) {
+  #images-wrapper {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+}
+
+*/
+
+@media (max-width: 920px) {
+  #images-wrapper {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+  }
+}
+
+/* Nav responsive */
+
+@media screen and (max-width: 920px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* Footer css */
+/*
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: antiquewhite;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: black;
+}
+
+.footer-content {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-content p {
+  max-width: 1000px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #717728;
+}
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li {
+  margin: 0 10px;
+}
+.socials a {
+  text-decoration: none;
+  color: #fff;
+  border: 1.1px solid white;
+  padding: 5px;
+  border-radius: 50%;
+}
+.socials a i {
+  font-size: 1.1rem;
+  width: 20px;
+  transition: color 0.4s ease;
+}
+.socials a:hover i {
+  color: aqua;
+}
+*/
+/* Responsive footer */
+/*
+@media (max-width: 650px) {
+  .footer-menu ul {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+*/

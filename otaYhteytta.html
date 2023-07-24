@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<head>
+  <title>Etusivu</title>
+  <link rel="stylesheet" href="cssindex.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+  <div class="header">
+    <h1 class="underline">Valokuvaaja Jesse Mäkelä</h1>
+  </div>
+  <div class="topnav">
+    <a href="index.html">Etusivu</a>
+    <div class="spacing">
+      <a target="#"></a>
+    </div>
+    <a href="valokuvauspalvelut.html">Valokuvauspalvelut</a>
+    <div class="spacing">
+      <a target="#"></a>
+    </div>
+    <a href="info.html">Info</a>
+    <div class="spacing">
+      <a target="#"></a>
+    </div>
+    <a href="hinnasto.html">Hinnasto</a>
+    <div class="spacing">
+      <a target="#"></a>
+    </div>
+    <a href="otaYhteytta.html">Ota yhteyttä</a>
+    <div class="spacing">
+      <a target="#"></a>
+    </div>
+    <a href="vaatimukset.html">Projekti osan vaatimukset</a>
+    <div class="spacing">
+      <a target="#"></a>
+    </div>
+  </div>
+  <h1 class="centerText underline">Ota yhteyttä lomake</h1>
+
+  <div class="leftcolumn">
+    <div class="container">
+      <form
+        name="myForm"
+        action="/action_page.php"
+        onsubmit="return validateForm()"
+        method="post"
+      >
+        <div class="row">
+          <div class="customLabel">
+            <label for="fname">Etunimi:</label>
+          </div>
+          <div class="customTextInput">
+            <input
+              type="text"
+              name="firstname"
+              placeholder="Kirjoita tähän Etunimi"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="customLabel">
+            <label for="lname"> Sukunimi:</label>
+          </div>
+          <div class="customTextInput">
+            <input
+              type="text"
+              name="lastname"
+              placeholder="Kirjoita tähän Sukunimi"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="customLabel">
+            <label for="mail">Sähköposti:</label>
+          </div>
+          <div class="customTextInput">
+            <input
+              type="text"
+              name="mail"
+              placeholder="Kirjoita tähän Sähköposti"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="customLabel">
+            <label for="tel"> Puhelinnumero</label>
+          </div>
+          <div class="customTextInput">
+            <input
+              type="text"
+              name="telephone"
+              placeholder="Kirjoita tähän puhelinnumero"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="customLabel">
+            <label for="subject"> Asia/Aihe </label>
+          </div>
+          <div class="customTextInput">
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Voit kirjoittaa tähän valokuvaustarpeen.."
+              style="height: 200px"
+            ></textarea>
+          </div>
+        </div>
+        <input class="top" type="submit" value="Submit" />
+      </form>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <h2 class="centerText underline">Kartta</h2>
+
+    <div class="google-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1867365.0880335!2d29.91593575!3d62.8022437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469c7b746f371949%3A0x4e97e0bffc1482a9!2sPohjois-Karjala!5e0!3m2!1sfi!2sfi!4v1689163281197!5m2!1sfi!2sfi"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <!--back up löytyy readme filusta kun on responsiivisuus hoidettu-->
+    <!-- https://www.w3schools.com/css/tryit.asp?filename=trycss_website_layout_blog -->
+    <!-- seuraavan kerran responsiivisuus loppuun. esimerkkikoodia löytyy myös bodyesim.html filusta -->
+  </div>
+  <footer>
+    <div class="footer-content">
+      <h3>Valokuvaaja Jesse Mäkelä</h3>
+      <p>
+        Matti Meikalainen <br />
+        Esimerkkiosoite <br />
+        0451234567 <br />
+        matti.meikalainen@mail.com <br />
+        <br />
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+        non ipsum nec sapien vehicula facilisis et nec arcu. Aenean lectus dui,
+        facilisis sit amet risus et, maximus efficitur quam. Mauris lobortis
+        nisl in velit dignissim, eu porttitor ipsum suscipit. In ultrices
+        malesuada lorem, quis sodales nibh mollis at. Morbi fermentum semper
+        mattis. Sed turpis tortor, cursus ut risus scelerisque, maximus
+        tincidunt urna. Pellentesque porta hendrerit urna, vitae fringilla magna
+        suscipit eu. Suspendisse ullamcorper tempus arcu sed ultrices. Proin ac
+        ligula placerat, dignissim nisi eu, varius orci.
+      </p>
+      <!--
+      <ul class="socials">
+        <li>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-google-plus"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-linkedin-square"></i></a>
+        </li>
+      </ul>
+      -->
+    </div>
+  </footer>
+  <!-- https://foolishdeveloper.com/simple-responsive-footer-design-using-html-and-css/ tuolta ohjeita responsiiviseen footeriin...-->
+</body>

@@ -1,0 +1,268 @@
+* {
+  box-sizing: border-box;
+}
+
+.underline {
+  text-decoration-line: underline;
+  text-decoration-color: black;
+}
+
+.button {
+  background-color: antiquewhite; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.button a {
+  text-decoration: none;
+}
+
+.backButton {
+  float: right;
+}
+
+.header_title {
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Navigointi osuus alkaa tästä*/
+.topnav {
+  margin: -10;
+  padding: 0;
+  overflow: hidden;
+  -background-color: Bisque;
+  -display: block;
+  -text-decoration: none;
+  -color: rgb(61, 139, 123);
+  -text-align: center;
+  background-color: antiquewhite;
+}
+
+.topnav ul {
+  float: left;
+  list-style-type: none;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(61, 139, 123);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: rgb(153, 119, 75);
+}
+
+.spacing a:hover {
+  background-color: antiquewhite;
+}
+
+/*Loppuu tähän*/
+
+body {
+  margin: 0;
+  background: rgb(250, 226, 194);
+}
+
+/*
+
+.header_title {
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+*/
+
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: rgb(250, 226, 194);
+  padding-left: 20px;
+}
+
+/* Right column responsive */
+
+@media screen and (max-width: 900px) {
+  .rightcolumn {
+    float: right;
+    width: 100%;
+  }
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.fakeimg {
+  background-color: rgb(250, 226, 194);
+  width: 100%;
+  padding: 20px;
+}
+
+/*
+background-color: none;
+display: inline;
+
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+padding-inline-start: 40px;
+*/
+
+/*
+.spacing {
+  cursor: not-allowed;
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
+  color: rgb(54, 54, 54);
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: none;
+}
+*/
+
+/* Nav responsive */
+
+@media screen and (max-width: 920px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+.leftFloat {
+  display: inline-block;
+}
+
+/* Footer css */
+
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: antiquewhite;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: black;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-content p {
+  max-width: 1000px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #717728;
+}
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li {
+  margin: 0 10px;
+}
+.socials a {
+  text-decoration: none;
+  color: #fff;
+  border: 1.1px solid white;
+  padding: 5px;
+  border-radius: 50%;
+}
+.socials a i {
+  font-size: 1.1rem;
+  width: 20px;
+  transition: color 0.4s ease;
+}
+.socials a:hover i {
+  color: aqua;
+}
+
+/* Responsive footer */
+
+/*
+
+@media (max-width: 650px) {
+  .footer-menu ul {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+*/
+
+/* Hinnasto Center Box */
+
+.cent {
+  border: 1px solid rgba(56, 61, 36, 0.5);
+  margin-top: 2%;
+  margin-bottom: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+}
+
+.cent p {
+}
+
+.hinta {
+  margin-top: 2%;
+  text-align: center;
+}
